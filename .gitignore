@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+catboost_info/
+
+# сырые данные задачи и всё, что из них считается
+dataset/
+data/
+logs/
+submissions/
+
+# архив артефактов для проверяющего
+artifacts/
+
+# разовые скрипты и отклонённые ветки — остаются локально, в репозиторий идёт только путь финального решения
+src/baselines.py
+src/dense_eval.py
+src/predict.py
+src/validation_hard.py
+src/experiments/
+src/rerank/train_catboost.py
+src/finetune/cross_encoder.py
