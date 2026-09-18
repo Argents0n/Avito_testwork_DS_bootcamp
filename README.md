@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ```
 
 **Быстрый путь — из готовых артефактов (~15 минут).** Скачать `artifacts.tar.gz`
-([Яндекс.Диск](https://disk.yandex.ru/d/rNbgW7DxYU6e-w), 352 МБ, md5 `004b2e9c6ecc24b4aefea081a8e72d9e`)
+([Яндекс.Диск](https://disk.yandex.ru/d/rNbgW7DxYU6e-w))
 и распаковать в корень проекта: `tar -xzf artifacts.tar.gz`. Внутри дообученный энкодер
 `data/models/e5-small-ft` и ансамбль переранжирования `data/rerank/model_rr_all_ens5_v5.joblib`. Дальше:
 
